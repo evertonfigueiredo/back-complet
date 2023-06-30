@@ -1,0 +1,22 @@
+{
+  "name": "back-end-completo",
+  "version": "1.0.0",
+  "description": "Esse API vai ser utilizada para contemplar todos os pontos de um Back end em node utilizando MongoDB como banco de dados",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "Everton Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
